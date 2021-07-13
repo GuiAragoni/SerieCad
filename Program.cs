@@ -28,7 +28,7 @@ namespace DIO_Series
 					case "5":
 						VisualizarSerie();
 						break;
-
+					default:
 						throw new ArgumentOutOfRangeException();
 				}
 
